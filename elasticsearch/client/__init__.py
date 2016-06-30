@@ -520,7 +520,7 @@ class Elasticsearch(object):
         :arg scroll: Specify how long a consistent view of the index should be
             maintained for scrolled search
         :arg search_type: Search operation type, valid choices are:
-            'query_then_fetch', 'dfs_query_then_fetch'
+            'query_then_fetch', 'dfs_query_then_fetch', 'scan'
         :arg size: Number of hits to return (default: 10)
         :arg sort: A comma-separated list of <field>:<direction> pairs
         :arg stats: Specific 'tag' of the request for logging and statistical
